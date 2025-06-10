@@ -40,6 +40,26 @@ Check if a string is a palindrome, ignoring non-alphanumeric characters and case
 
 ---
 
+## ⚔️ Challenge 8 – Container With Most Water (LeetCode)
+
+**🔗 Source:** [Container With Most Water – LeetCode](https://leetcode.com/problems/container-with-most-water/)
+
+### 🧠 Problem Statement:
+Given an array `height` where each element represents the height of a vertical line on the x-axis, find the maximum area of water a container can store using any two lines.
+
+### 🚀 Solution Strategy:
+- Use two pointers, one at the start and one at the end of the array.
+- Calculate the area between the two lines and update the maximum area found.
+- Move the pointer pointing to the shorter line inward to try to find a larger area.
+- Continue until the pointers meet.
+
+### 📌 Key Concepts:
+- Two-pointer technique for maximizing area
+- Greedy approach for optimal solution
+- Efficient O(n) time complexity
+
+---
+
 ## 📊 Summary of Learnings – Day 3
 
 | Language | Concept         | Key Skills Practiced                |
@@ -61,4 +81,7 @@ python3 challenge6.py
 
 # Run Challenge 7 – Valid Palindrome
 python3 challenge7.py
+
+# Run Challenge 8 – Container With Most Water
+python3 challenge8.py
 ```
