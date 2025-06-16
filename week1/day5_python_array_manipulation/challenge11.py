@@ -7,7 +7,7 @@ class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
 
         k %= len(nums)  # In case k is larger than the array length
-        """ # Reverse method 
+        # Reverse method 
         
         # Firt, let's reverse the entire array
         nums.reverse()
@@ -15,12 +15,12 @@ class Solution:
         nums[:k] = reversed(nums[:k])
         # Finally, reverse the remaining n-k elements
         nums[k:] = reversed(nums[k:])
-        """
+        
 
-        """ Slicing method """
+        """ Slicing method 
         nums[:] = nums[-k:] + nums[:-k]
 
-
+"""
 
 # Example usage
 check = Solution()
